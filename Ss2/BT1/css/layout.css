@@ -1,0 +1,47 @@
+.body {
+    width: 100%;
+}
+.header {
+    border-bottom: 2px solid rgb(135, 134, 134) ;
+/*     height: 70px; */
+    background: #ccc;
+    padding: 3% 50%;
+}
+.nav {
+    border: 2px solid rgb(135, 134, 134) ;
+    margin-top: 0.5%;
+    padding: 0.5% 49%;
+    background-color: #ccc;
+}
+.center {
+    width: 100%;
+    margin-top: 0.5%;
+    
+}
+.sub-center {
+    float: left ;
+    background: #ccc;
+    border: 2px solid rgb(135, 134, 134) ;
+/*     padding: 20% 10%; */
+    
+}
+.left-column {
+    padding: 18% 10% ;
+    margin-right: 0.5%;
+}
+.content {
+    padding: 18% 21.83%;
+    margin-right: 0.5%;
+}
+.right-column {
+    padding: 18% 10% ;
+}
+.clear {
+    clear: both ;
+}
+.footer {
+    border: 2px solid rgb(135, 134, 134) ;
+    margin-top: 0.5%;
+    background: #ccc;
+    padding: 0.5% 49%;
+}

@@ -1,0 +1,32 @@
+.container {
+    font-weight: bold;
+}
+.border {
+    border: 3px solid black ;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.header {
+    border: 3px solid black ;
+    border-top: 0px;
+    padding: 5% 40%;
+}
+.sub-main {
+    float: left ;
+}
+.main {
+    padding: 20% 30%;
+    border-right: 3px solid black;
+}
+.alt-main {
+    padding: 8% 7%;
+    
+}
+.clear {
+    clear: both ;
+}
+.footer {
+    border-top: 3px solid black;
+    padding: 2% 40%;
+}
