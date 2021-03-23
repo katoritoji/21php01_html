@@ -1,0 +1,27 @@
+.border {
+    border: 3px dotted ;
+    height: 300px;
+}
+.border2 {
+    border: 3px solid ;
+    margin: 30px;
+/*     width: 1200px; */
+    margin-right: 100px;
+    height: 240px;
+}
+h1 {
+    border: 2px dotted ;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 20px;
+}
+p {
+    border: 2px dotted ;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 20px;
+}
