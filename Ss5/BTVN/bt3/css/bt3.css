@@ -1,0 +1,125 @@
+.container {
+    width: 50%;
+    margin: 0 auto ;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+}
+.container a {
+    color: white ;
+    text-decoration: none ;
+}
+ul {
+    list-style-type: none;
+}
+.clear {
+    clear: both ;
+}
+.header {
+    margin-top: -15px;
+    margin-left: -30px;
+}
+.header ul li {
+    float: left ;
+    border: 1px solid #2E9AFE ;
+    border-radius: 3px;
+    background-color: #2E9AFE;
+    padding: 2px;
+    margin-right: 2px;
+}
+.banner {
+    border: 1px solid #2E9AFE;
+    border-radius: 15px;
+    background-color: #2E9AFE;
+    height: 150px;
+    text-align: right ;
+    margin-top: 5px;
+    margin-right: 8px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.content {
+    margin-left: -35px;
+}
+.content ul li {
+    float: left ;
+    border: 1px solid #2E9AFE;
+    border-radius: 10px;
+    background-color: #2E9AFE;
+    width: 47%;
+    height: 100px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    text-align: right ;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+.footer {
+    border: 1px solid #2E9AFE;
+    border-radius: 5px;
+    background-color: #2E9AFE;
+    height: 35px;
+    margin: 0 7px 7px 5px;
+    text-align: center ;
+    line-height: 35px;
+}
+
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 40%;
+	}
+	.banner {
+	    margin-left: 8px;
+	    padding-right: 50px;
+	    padding-top: 30px;
+	}
+	.content ul li {
+	    width: 19.9%;
+	    height: 200px;
+	    text-align: center;
+	}
+	.content a {
+		display: inline-block;
+		transform: rotate(-90deg);
+		padding-top: 40px;
+		margin-left:-35px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.header ul {
+		margin-left:-6px;
+		margin-right:3px;
+	}
+	.header ul li{
+		width: 96%;
+		margin-bottom: 3px;
+		text-align: center;
+	}
+	.banner {
+		height: 70px;
+		margin: 2px 3px;
+		border-radius: 5px;
+        padding-right:60px;
+        padding-top: 0;
+        line-height:70px;
+	}
+	.content {
+		margin-top: -15px;
+		margin-right: 10px;
+	}
+	.content ul li {
+		width: 97%;
+		border-radius:5px;
+		height: 50px;
+		text-alain: center;
+		margin-bottom: 3px;
+	}
+	.content a {
+		transform: rotate(0);
+		padding-top: 5px;
+		margin-left: 5px;
+	}
+	.footer {
+		margin-right: 3px;
+	}
+}

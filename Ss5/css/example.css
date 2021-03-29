@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+/*.border1 {
+	border: 2px solid;
+	height: 200px;
+	width: 200px;
+	margin: 50px;
+	padding: 30px;
+}
+.border2 {
+	border: 2px dotted green;
+	height: 200px;
+	width: 400px;
+	border-right: 4px solid red;
+}*/
+.container {
+	width: 80%;
+	border: 1px solid;
+	margin: 0 auto;
+}
+.left {
+	width: 40%;
+	border: 1px solid;
+	height: 10%;
+	float: left;
+}
+.right {
+	width: 59.6%;
+	border: 1px solid;
+	height: 10%;
+	float: left;
+}

@@ -1,0 +1,44 @@
+.container {
+	font-weight: bold;
+    text-align: center ;
+    width: 60%;
+    margin: 0 auto ;
+}
+.header {
+    border: 1px solid ;
+    height: 70px;
+    line-height: 70px;
+} 
+.nav {
+    border: 1px solid ;
+    border-top: 0px;
+    height: 70px;
+    line-height: 70px;
+}
+.sub-main {
+    float: left ;
+    height: 200px;
+    border-top: 0px;
+    line-height: 200px;      
+}
+.index {
+    border: 1px solid ;
+    width: 30%;
+    border-top: 0px;
+    
+}
+.content {
+    border: 1px solid ;
+    width: 69.6%;
+    border-left: 0px;
+    border-top: 0px;
+}
+.clear {
+    clear: both ;
+}
+.footer {
+    border: 1px solid ;
+    border-top: 0px;
+    height: 70px;
+    line-height: 70px;
+}

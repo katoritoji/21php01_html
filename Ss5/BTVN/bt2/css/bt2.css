@@ -1,0 +1,146 @@
+.container {
+    width: 21%;
+    margin: 0 auto ;
+    margin-top: 30px;
+}
+.menu1 .border {
+    border: 2px solid ;
+    box-shadow: 6px 6px 4px #ccc;
+    height: 270px;
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+.menu1 h2 {
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.menu1 ul {
+    list-style-type: none;
+    font-weight: bold ;
+}
+.menu1 ul li {
+    border: 2px solid blue ;
+    width: 70%;
+    height: 35px;
+    margin-bottom: 10px;
+    line-height: 35px;
+    padding-left: 20px;
+}
+.menu1 ul li a {
+    color: blue ;
+    text-decoration: none ;
+}
+.menu1 .color {
+    background-color: #ccc;
+}
+.menu1 li:hover {
+    background-color: rgb(209, 180, 180);
+}
+
+
+.container2 {
+    width: 45%;
+    margin: 0 auto ;
+    margin-top: 30px;
+}
+.border2 {
+    border: 2px solid ;
+    height: 200px;
+    box-shadow: 4px 6px 3px #ccc;
+}
+.clear {
+    clear: both ;
+}
+ul {
+    list-style-type: none ;
+    font-weight: bold ;
+}
+.menu2 h4 {
+    border-bottom: 2px solid ;
+    padding-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.menu2 ul {
+    margin-left: -30px;
+    margin-top: -10px;
+}
+.menu2 ul li {
+    float: left ;
+    padding-right: 20px;
+    border-right: 2px solid ;
+    padding-left: 20px;
+}
+.menu2 a {
+    color: blue ; 
+}
+.menu2 .color a {
+    text-decoration: none ;
+}
+.menu2 li:hover {
+    background-color: yellow ;
+}
+.menu3 h3 {
+    border-top: 2px solid ;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding-top: 20px
+}
+.menu3 ul {
+    margin-left: -25px;
+}
+.menu3 ul li {
+    float: left ;
+    border: 0.5px solid white ;
+    background-color: blue ;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu3 a {
+    text-decoration: none ;
+    color: white ;
+}
+.menu3 .color a {
+    color: yellow ;
+}
+.last {
+    width: 12%;
+}
+.menu3 li:hover {
+    background-color: grey ;
+}
+
+.container3 {
+    width: 50%;
+    margin: 0 auto ;
+    margin-top: 40px;
+}
+.menu4 h2 {
+    margin-left: 50px;
+}
+.menu4 ul {
+    margin-left: 25px;
+}
+.menu4 ul li {
+    float: left ;
+    border: 2px solid blue ;
+    height: 40px;
+    line-height: 40px;
+}
+.menu4 a {
+    border: 1px solid white ;
+    background-color: blue;
+    text-decoration: none ;
+    padding: 10px 30px 10px 30px;
+    color: white ;
+}
+.menu4 .color a {
+    color: yellow ;
+}
+.menu4 a:hover {
+    background-color: grey ;
+}
