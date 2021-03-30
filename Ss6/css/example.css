@@ -1,0 +1,38 @@
+.menu1 {
+	float: left;
+    list-style-type: none;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    padding: 10px;
+    
+}
+.main-menu li:hover {
+    background-color: gray;    
+}
+.menu2 ul li {
+    display: none ;
+}
+.menu2:hover ul li {
+    display: block ;
+    margin-left: -40px;
+    margin-bottom: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: green ;
+}
+
+.menu2:hover ul {
+    margin-top: 15px;
+}
+.menu3 li:hover {
+    background-color: yellow ;
+}
+
+
+
+.example {
+	padding-top: 300px;
+}
+#q1, #q2, #q3 {
+	height: 100px;
+}

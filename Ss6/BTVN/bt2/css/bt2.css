@@ -1,0 +1,107 @@
+.container {
+    background-image: linear-gradient(white 8.4%, rgb(255, 218, 149) 100%) ;
+    height: 620px;
+}
+.border {
+    border: 2px solid #ccc;
+    width: 80%;
+    margin: 0 auto ;
+    margin-top: 35px;
+    background-color: white ;
+    height: 580px;
+}
+.header {
+    border-bottom: 2px solid orange ;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 8px;
+}
+img {
+    float: left ;
+    width: 90px;
+    margin-top: -10px;
+}
+h1 {
+    padding-left: 120px;
+    color: orange ;
+    text-shadow: 2px 2px 2px black;
+}
+.header h3 {
+    padding-left: 120px;
+    color: green ;
+    margin-top: -15px; 
+}
+.menu {
+    border-bottom: 2px solid orange ;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.menu ul {
+    list-style-type: none;
+    margin-left: -30px;
+}
+.menu li {
+    float: left ;
+    margin-top: -12px;
+    border-right: 2px solid ;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.menu a {
+    font-weight: bold ;
+    color: green ;
+}
+.home a {
+    color: orange ;
+}
+.content {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.sub-content {
+    float: left ;
+}
+h2 {
+    margin-top: -3px;
+}
+.left-content {
+    width: 55%;
+    border-right: 2px solid orange ;
+}
+.left-content p {
+    width: 93%;
+}
+.first-color {
+    font-weight: bold ;
+    color: gray ;
+}
+.second-color {
+    font-weight: bold ;
+    color: green ;
+}
+.third-color {
+    font-weight: bold ;
+    color: orange ;
+}
+.right-content {
+    padding-left: 20px;
+}
+.right-content h3 {
+    margin-top: -5px;
+}
+.right-content h4 {
+    color: green ;
+}
+.clear {
+    clear: both ;
+}
+.footer {
+    border-top: 2px solid orange ;
+    margin: 15px 20px;
+}
+.footer p {
+    float: right ;
+}
+
+

@@ -1,0 +1,30 @@
+.container {
+    width: 60%;
+    margin: 0 auto ;
+}
+.container a {
+    color: white ;
+}
+ul {
+    list-style-type: none ;
+}
+.main-menu li {
+    text-align: center ;
+    border: 1px solid blue ;
+    background-color: blue ;
+    border-right: 1px solid white ;
+    float: left ;
+    width: 22%;
+}
+ul.menu-dropdown {
+    display: none ;
+}
+.menu-dropdown li {
+    float: none ;
+    border-right: 0px;
+}
+.main-menu li:hover .menu-dropdown {
+    display: block ;
+    width: 600px;
+    padding-left: 20px;
+}
