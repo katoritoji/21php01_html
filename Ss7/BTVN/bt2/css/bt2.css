@@ -1,0 +1,57 @@
+.container {
+    background-color: rgba(204, 204, 204, 0.15);
+    height: 650px;
+    padding-top: 50px;
+}
+.border {
+    border: 1px solid #ccc;
+    background-color: white ;
+    width: 50%;
+    height: 600px;
+    margin: 0 auto ;
+}
+form {
+    padding-left: 150px; 
+    padding-bottom: 50px;
+}
+p {
+    font-weight: bold ;
+}
+.title {
+    font-weight: inherit ;
+    font-size: 25px;
+    text-align: center ;
+}
+input {
+    width: 70%;
+    height: 25px;
+    margin-top: -10px;
+}
+select {
+    background-color: white ;
+    border: 1px solid #ccc; 
+    width: 71%;
+    height: 25px;
+}
+.register {
+    background-color: rgba(0, 92, 255, 0.78) ;
+    width: 34%;
+    border: none ;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-weight: bold ;
+    color: white ;
+    height: 30px;
+    margin-right: 12px;
+}
+.login {
+    background-color: #ccc;
+    width: 34%;
+    border: none ;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-weight: bold ;
+    color: gray ;
+    height: 30px;
+    
+}

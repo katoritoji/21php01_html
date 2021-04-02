@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Register</title>
+	<link rel="stylesheet" href="css/bt3.css">
+</head>
+<body>
+	<div class="container">
+		<h3>Student Registration Form Using Table in HTML</h3>
+		<div class="border">
+			<form name="register" action="#" method="POST">
+				<p>First Name <input type="text" name="first-name" placeholder="ABC" maxlength="50" class="first-name"> (Max 50 Characters Allowed)</p> 
+				<p>Last Name <input type="text" name="last-name" placeholder="ABC" maxlength="50" class="last-name"> (Max 50 Characters Allowed)</p>
+				<p>Email ID <input type="email" name="email" placeholder="abc@gmail.com" class="email"></p>
+				<p>Mobile Number <input type="tel" name="number" placeholder="09865xxxxx" maxlength="10" class="tel"> (10 Digits Allowed)</p>
+				<p>
+					Gender
+					<input type="radio" name="gender" value="male" class="gender"> Male
+					<input type="radio" name="gender" value="female"> Female
+				</p>
+				<p>Date of Birth (DOB)
+					<select>
+						<option>Day</option>
+						<option>01</option>
+					</select>
+					<select>
+						<option>Month</option>
+						<option>01</option>
+					</select>
+					<select>
+						<option>Year</option>
+						<option>2021</option>
+					</select>
+				</p>
+				<p>
+					Address
+					<textarea name="address" cols="45" rows="10"></textarea>
+				</p>
+				<p>City <input type="text" name="city" placeholder="ABC" maxlength="50" class="city"> (Max 50 Characters Allowed)</p>
+				<p>Pin Code <input type="number" name="pin-code" placeholder="550000" maxlength="6" class="pin-code"> (Max 6 Numbers Allowed)</p> 
+				<p>State <input type="text" name="state" placeholder="ABC" maxlength="50" class="state"> (Max 50 Characters Allowed)</p>
+				<p>Country <input type="text" name="country" placeholder="ABC" class="country"></p>  
+				<p>
+					Hobbies
+					<input type="checkbox" name="drawing" class="hobbies"> Drawing
+					<input type="checkbox" name="singing"> Singing
+					<input type="checkbox" name="dancing"> Dancing
+					<input type="checkbox" name="sketching"> Sketching
+					<br>
+					<input type="checkbox" name="other" class="other"> Other
+					<input type="text" name="other" placeholder="ABC" maxlength="50"> <span>(Max 50 Characters Allowed)</span>
+ 				</p>
+ 				<p>
+ 					Qualification
+ 					<div class="qualification">
+	 					<input type="checkbox" name="high"> High School(10th) <br>
+	 					<input type="checkbox" name="higher"> Higher School(12th) 
+	 					<br>
+	 					<input type="checkbox" name="phd"> Phd
+	 				</div>	
+ 				</p>
+ 				<p>
+ 					Courser Applied For
+ 					<div class="courser">
+	 					<input type="radio" name="courser" value="bca"> BCA (Bachelor of Computer) <br>
+	 					<input type="radio" name="courser" value="bcom"> B.Com (Bachelor of Commerce) <br>
+	 					<input type="radio" name="courser" value="bsc"> B.Sc (Bachelor of Science)
+	 				</div>
+ 				</p>
+ 				<input type="submit" name="submit" value="Submit">
+ 				<input type="submit" name="reset" value="Reset">
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

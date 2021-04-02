@@ -1,0 +1,69 @@
+h3 {
+    color: blue ;
+    text-decoration: underline ;
+    text-align: center ;
+}
+form {
+    width: 40%;
+    border: 4px dotted black;
+    margin: 0 auto ;
+    background-image: linear-gradient(rgba(0, 141, 255, 0.63), rgba(128, 0, 128, 0.72));
+    color: white ;
+    font-weight: bold ;
+    padding-left: 15px;
+}
+
+input[type=text], input[type=tel], input[type=number], input[type=email] {
+    width: 30%;
+    height: 20px;
+}
+.first-name, .last-name {
+    margin-left: 70px;
+}
+.email {
+    margin-left: 80px;
+}
+.tel {
+    margin-left: 34px;
+}
+.gender {
+    margin-left: 90px;
+}
+textarea {
+    margin-left: 85px;
+    vertical-align: middle;
+}
+.city {
+    margin-left: 115px;
+}
+.pin-code {
+    margin-left: 80px;
+}
+.state {
+    margin-left: 110px;
+}
+.country {
+    margin-left: 85px;
+}
+.hobbies {
+    margin-left: 85px;
+}
+.other {
+    margin-left: 145px;
+}
+.qualification {
+    margin-left: 140px;
+    margin-top: -40px;
+}
+.courser {
+    margin-left: 140px;
+}
+input[type=submit] {
+    background-color: white ;
+    border: none;
+    width: 15%;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    transform: translate(185px) 
+}

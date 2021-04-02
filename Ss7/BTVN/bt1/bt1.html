@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Form Login</title>
+	<link rel="stylesheet" href="css/bt1.css">
+</head>
+<body>
+	<div class="container">
+		<div class="login">
+			<h2>Login</h2>
+			<form name="login" action="#" method="POST">
+				<p>Username or email address <span>*</span></p>
+				<input type="text" name="username" required>
+				<p>Password <span>*</span></p>
+				<input type="password" name="password" required>
+				<br>
+				<input type="submit" name="login" value="LOGIN">
+				<input type="checkbox" name="remember"> Remember me
+				<br>
+				<a href="#">Lost your password?</a>
+			</form>
+		</div>
+		<div class="register">
+			<h2>Register</h2>
+			<form name="register" action="#" method="POST">
+				<p>Phone</p>
+				<input type="tel" name="phone">
+				<div class="name">
+					<div class="first-name">
+						<p>First name <span>*</span></p>
+						<input type="text" name="first-name" required>
+					</div>
+					<div class="last-name">
+						<p>Last name <span>*</span></p>
+						<input type="text" name="last-name" required>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<p>Email adress <span>*</span></p>
+				<input type="email" name="email" placeholder="abc@gmail.com" required>
+				<p>Password <span>*</span></p>
+				<input type="password" name="password" required>
+				<br>
+				<input type="submit" name="register" value="REGISTER">
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

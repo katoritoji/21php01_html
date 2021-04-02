@@ -1,0 +1,20 @@
+.container {
+    overflow-x: scroll ;
+}
+table {
+    border-collapse: collapse ;
+}
+table, th, td {
+    border: 1px solid ;
+    padding: 2px 10px;
+}
+.color-yellow {
+    background-color: yellow ;
+}
+tbody th:nth-child(odd) {
+    color: red;
+    border: 1px solid black; 
+}
+td:nth-child (1) {
+    color: blue ;
+} 
