@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<a href="#" class="header1">Quản lý hàng hóa/</a>
+			<a href="#" class="header2">Thêm mới hàng hóa</a>
+			<button type="button" class="fas fa-arrow-left header3"><span>Quay lại</span></button>
+			<button type="button" class="fas fa-save header4"><span>Lưu & Thêm mới</span></button>
+		</div>
+		<div class="main">
+			<p class="head">Thông tin cơ bản</p>
+			<form action="#" name="information" method="POST">
+				<p class="type">
+					Loại sản phẩm
+					<select>
+						<option>Dịch vụ</option>
+						<option>Dịch vụ 1</option>
+					</select>
+				</p>
+				<p class="code">
+					Mã dịch vụ (SKU)
+					<input type="text" name="sku" placeholder="Mã hàng hóa tự động"><i class="fas fa-info-circle"></i>
+				</p>
+				<p class="barcode">
+					Mã vạch
+					<input type="text" name="barcode" placeholder="Mã vạch sản phẩm"><i class="fas fa-info-circle"></i>
+				</p>
+				<p class="name-service">Tên dịch vụ <span>(*)</span>
+					<input type="text" name="name" required>
+				</p>
+				<p class="group">
+					Nhóm dịch vụ
+					<select>
+						<option selected disabled>Chọn hoặc nhập tên nhóm hàng hóa</option>
+						<option>Hàng hóa 1</option>
+					</select><i class="fas fa-plus"></i>
+				</p>
+				<p class="price">
+					Giá bán <span>(*)</span>
+					<input type="number" name="price" value="0" required class="right"><span class="icon">đ</span>
+				</p>
+				<p class="serial">Quản lý theo Serial/IMEI
+					<input type="checkbox">
+				</p>
+			</form>
+		</div>
+		<div class="footer">
+			<p>Ảnh hàng hóa</p>
+			<button class="far fa-image"><span>Thêm ảnh</span></button>
+		</div>
+	</div>
+
+</body>
+</html>

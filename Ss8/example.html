@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Intro Javascript</title>
+	<script type="text/javascript" src="js/example.js"></script>
+</head>
+<body>
+	<!-- Có 3 cách gọi js:
+	Cách 1: Inline -->
+	<button onclick="alert('Test click')">Click me</button>
+
+	<div id="demo">Test click</div>
+	<!-- Cách 2: Internal -->
+	<script type="text/javascript">
+		document.getElementById("demo").innerHTML = "Hello Word!";
+		document.getElementById("demo").style.color = "red";
+	</script>
+
+	<div id="test_external" onclick="testExternal();">Demo external
+	</div>
+
+	<div id="change_content">Đây là nội dung đầu tiên</div>
+	<a href="#" onmouseover="change_content();" onmouseleave="change_content_2();">Change content</a>
+
+	<img src="image/1.jpg" alt="Test image" id="change_image" width="200" height="200">
+	<a href="#" onclick="changeImage();">Change image</a>
+	
+</body>
+</html>

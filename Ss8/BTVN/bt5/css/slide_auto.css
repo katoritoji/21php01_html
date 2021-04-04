@@ -1,0 +1,28 @@
+.next, .prev {
+    cursor: pointer ;
+    opacity: 0.6;
+    text-decoration: none ;
+    font-size: 40px;
+    position: absolute ;
+    top: 25%;
+    color: white ;
+    transition: 0.5 linear ;
+    padding: 0 15px;
+}
+.next {
+    right: 0.6%;
+    margin-right: 3.7px;
+    
+}
+.next:hover, .prev:hover {
+    background-color: rgba(43, 193, 31, 0.8);
+}
+p {
+    text-align: center ;
+    font-weight: bold ;
+    position: absolute ;
+    left: 45%;
+    top: 45%;
+    color: white ;
+    font-size: 20px;
+}

@@ -1,0 +1,26 @@
+.next, .prev {
+    text-decoration: none ;
+    font-size: 40px;
+    position: absolute ;
+    top: 25%;
+    color: white ;
+    transition: 0.5 linear ;
+    padding: 0 15px;
+}
+.next {
+    right: 0.6%;
+    margin-right: 3.7px;
+    
+}
+.next:hover, .prev:hover {
+    background-color: rgb(66, 195, 21);
+}
+p {
+    text-align: center ;
+    font-weight: bold ;
+    position: absolute ;
+    left: 45%;
+    top: 45%;
+    color: white ;
+    font-size: 20px;
+}
