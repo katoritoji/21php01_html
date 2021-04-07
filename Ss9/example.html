@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Image Information</title>
+	<link rel="stylesheet" href="css/example.css">
+	<script type="text/javascript" src="js/example.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="bar">
+			<div class="border" onclick="pic()">
+				<img src="img/1.jpg" alt="ảnh 1">
+				<p>Ảnh 1</p>
+			</div>
+			<div class="border2" onclick="changeInfo('img/1 2.jpg' , 'Ảnh 2' , '2')">
+				<img src="img/1 2.jpg" alt="ảnh 2">
+				<p>Ảnh 2</p>
+			</div>
+			<div class="border3" onclick="changeInfo('img/2.jpg' , 'Ảnh 3' , '3')">
+				<img src="img/2.jpg" alt="ảnh 3">
+				<p>Ảnh 3</p>
+			</div>
+			<div class="border4" onclick="changeInfo('img/3.jpg' , 'Ảnh 4' , '4')">
+				<img src="img/3.jpg" alt="ảnh 4">
+				<p>Ảnh 4</p>
+			</div>
+		</div>
+		<div class="information">
+			<div class="border5">
+				<img src="img/no-image.png" alt="no-img" id="change-img">
+				<p id="change-name">Name: <span>No Name</span></p>
+				<p id="change-age">Age: <span>0</span></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
