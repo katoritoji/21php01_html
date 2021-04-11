@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Caculator</title>
+	<link rel="stylesheet" href="css/caculator.css">
+	<script type="text/javascript" src="js/caculator.js"></script>
+</head>
+<body>
+	<div class="container">
+		<form action="" method="POST" onsubmit="validate()" name="caculator">
+			<div class="result">
+				<input type="text" class="result1" value="0" disabled id="show" name="show" onclick="show()">
+				<!-- <p class="result1" id="show">0</p> -->
+			</div>
+			<div class="button1">
+				<input type="button" class="color1" value="(" onclick="changeSign('(')">
+				<input type="button" class="color1" value=")" onclick="changeSign(')')">
+				<input type="button" class="color1" value="%" onclick="changeSign('%')">
+				<input type="button" class="color1" value="AC" onclick="clean()">
+			</div>
+			<div class="button2">
+				<input type="button" value="7" onclick="changeNumber('7')">
+				<input type="button" value="8" onclick="changeNumber('8')">
+				<input type="button" value="9" onclick="changeNumber('9')">
+				<input type="button" class="color1" value="&#247;" onclick="changeSign('/')">
+			</div>
+			<div class="button3">
+				<input type="button" value="4" onclick="changeNumber('4')">
+				<input type="button" value="5" onclick="changeNumber('5')">
+				<input type="button" value="6" onclick="changeNumber('6')">
+				<input type="button" value="x" class="color1" onclick="changeSign('*')">
+			</div>
+			<div class="button4">
+				<input type="button" value="1" onclick="changeNumber('1')" >
+				<input type="button" value="2" onclick="changeNumber('2')">
+				<input type="button" value="3" onclick="changeNumber('3')">
+				<input type="button" value="-" class="color1" onclick="changeSign('-')">
+			</div>
+			<div class="button2">
+				<input type="button" value="0" onclick="changeNumber('0')">
+				<input type="button" value="&#8226;" onclick="changeSign('.')">
+				<input type="button" value="=" class="color2" onclick="kq()" >
+				<input type="button" value="+" class="color1" onclick="changeSign('+')">
+			</div>
+			
+		</form>
+		
+
+	</div>
+
+</body>
+</html>
