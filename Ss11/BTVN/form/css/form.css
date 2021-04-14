@@ -1,0 +1,39 @@
+.container {
+    width: 50%;
+    margin: 0 auto ;
+    border: 1px solid ;
+    padding-left: 50px;
+}
+.case {
+    font-weight: bold ;
+    padding-top: 10px;
+}
+input[type=text] {
+    padding-left: 15px;
+    width: 67.9%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: rgba(204, 204, 204, 0.2);
+    font-size: 15px;
+}
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: rgba(204, 204, 204, 0.2);
+    font-size: 15px;
+    padding-left: 22px;
+    padding-top: 20px;
+}
+input[type=submit] {
+    background-color: blue ;
+    border-radius: 3px;
+    border: 1px solid blue ;
+    color: white ;
+    font-weight: bold ;
+    padding: 15px 40px;
+    margin: 25px 0;
+}
+.error {
+    margin-bottom: 1px;
+}

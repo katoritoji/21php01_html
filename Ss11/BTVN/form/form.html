@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="css/form.css">
+	<script type="text/javascript" src="js/form.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div>
+			<h1>Liên hệ với chúng tôi</h1>
+			<form name="contact" onsubmit="return validate()">
+				<p class="case">Họ và tên</p>
+				<p id="error-name" class="error"></p>
+				<input type="text" name="name" placeholder="Nhập tên" id="name">
+				<p class="case">Email</p>
+				<p id="error-email" class="error"></p>
+				<input type="text" name="email" placeholder="Nhập email" id="email">
+				<p class="case">Tiêu đề</p>
+				<p id="error-title" class="error"></p>
+				<input type="text" name="title" placeholder="Nhập tiêu đề" id="title">
+				<p class="case">Nội dung</p>
+				<p id="error-content" class="error"></p>
+				<textarea name="content" id="content" cols="42" rows="10" placeholder="Nhập nội dung"></textarea>
+				<br>
+				<input type="submit" name="Gửi" value="Gửi">
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
