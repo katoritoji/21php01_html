@@ -1,0 +1,61 @@
+.container {
+    width: 40%;
+    margin: 0 auto ;
+    border: 2px solid;
+}
+h1 {
+    text-align: center ;
+    color: blue ;
+}
+form {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+input[type=text], input[type=date] {
+    width: 45%;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: rgba(204, 204, 204, 0.2);
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+#full-name {
+    margin-left: 30px;
+}
+#number-first {
+    margin-left: 97px;
+}
+#number-last {
+    margin-left: 92px;
+}
+#male {
+    margin-left: 107px;
+}
+#birt {
+    margin-left: 100px;
+}
+#first-day {
+    margin-left: 78px;
+}
+#last-day {
+    margin-left: 72px;
+} 
+input[type=button] {
+    background-color: #0075ffb5;
+    border: 1px solid #0075ffb5;
+    width: 15%;
+    height: 30px;
+    margin-left: 200px;
+} 
+#error-name {
+    padding-left: 190px;
+    margin-bottom: 1px;
+    font-style: italic;
+    color: red;
+}
+#price {
+    color: red;
+    font-weight: bold;
+}

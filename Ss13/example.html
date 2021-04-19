@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tiền điện</title>
+	<link rel="stylesheet" href="css/example.css">
+	<script type="text/javascript" src="js/example.js"></script>
+</head>
+<body>
+	<div class="container" id="container">
+		<h1>Hóa đơn điện</h1>
+		<form action="">
+			<p>
+				Họ tên khách hàng:
+				<input type="text" name="full-name" id="full-name" placeholder="Nhập họ tên" required>
+			</p>
+			<p>
+				Số đầu kỳ:
+				<input type="text" name="number-first" id="number-first" placeholder="Nhập số đầu kỳ" required>
+			</p>
+			<p>
+				Số cuối kỳ:
+				<input type="text" name="number-last" id="number-last" placeholder="Nhập số cuối kỳ" required>
+			</p>
+			<p>
+				Giới tính:
+				<input type="radio" name="Gender" id="male">Nam
+				<input type="radio" name="Gender" id="female">Nữ 
+			</p>
+			<p>
+				Ngày sinh:
+				<input type="date" name="birt" id="birt" placeholder="Nhập ngày sinh" required>
+			</p>
+			<p>
+				Ngày đầu kỳ:
+				<input type="date" name="first-day" id="first-day" placeholder="Nhập ngày đầu kỳ" required>
+			</p>
+			<p>
+				Ngày cuối kỳ:
+				<input type="date" name="last-day" id="last-day" placeholder="Nhập ngày cuối kỳ" required>
+			</p>
+			<p id="price"></p>
+			<input type="button" name="submit" value="Submit" onclick="save()">
+
+		</form>
+	</div>
+
+</body>
+</html>
