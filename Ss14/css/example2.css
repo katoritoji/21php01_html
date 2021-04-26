@@ -1,0 +1,9 @@
+img {
+    float: left ;
+}
+.clear {
+    clear: both ;
+}
+.left {
+    margin-left: 100px;
+}

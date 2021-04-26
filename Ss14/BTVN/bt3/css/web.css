@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.top-bar {
+    background-color: rgba(204, 204, 204, 0.2);
+    padding: 5px 120px 5px 120px;
+}
+.top-bar a {
+    color: #969696;
+    text-decoration: none;
+}
+.about, .contact {
+    font-size: 11px;
+    padding-left: 20px;
+}
+.mail, .phone {
+    font-size: 15px;
+    float: right ;
+    padding-right: 20px;
+}
+.top-bar .fas, .top-bar .fab, .top-bar .far {
+    padding-right: 7px;
+}
+.top-bar .fab, .top-bar .far {
+    color: blue;
+}
+.top-bar .fas:hover {
+    position: relative;
+    animation: mymove 1s linear infinite;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 5px;}
+}
+.nav-bar {
+    height: 90px;
+}
+.logo {
+    padding-left: 140px;
+    padding-top: 15px;
+}
+.menu {
+    list-style-type: none;
+    float: right ;
+    padding-right: 120px;
+    padding-top: 35px;
+}
+.menu li{
+    float: left;
+    padding-right: 25px
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+.home {
+    color: blue !important;
+}
+
+.next, .prev {
+    cursor: pointer ;
+    opacity: 0.6;
+    text-decoration: none ;
+    font-size: 35px;
+    position: absolute;
+    top: 45%;
+    color: white ;
+    transition: 0.5 linear ;
+    padding: 0 15px;
+}
+.next {
+    right: 0.6%;
+    margin-right: 3.7px; 
+}
+.bottom-bar {
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.83) ;
+    margin-top: -4px;
+}
+.bottom-bar p {
+    color: white ;
+    font-size: 20px;
+    padding-left: 140px;
+    line-height: 70px;
+}
+.bottom-bar span {
+    color: rgba(0, 164, 255, 0.84); 
+    font-weight: bold;
+    font-size: 27px;
+}
+.bottom-bar button{
+    float: right ;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 7px 5px 8px 7px;
+    background-color: rgba(0, 164, 255, 0.84); 
+    margin-right: 130px;
+    margin-top: -55px;
+    color: white;
+    font-size: 15px;
+}
