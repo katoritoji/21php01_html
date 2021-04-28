@@ -1,0 +1,71 @@
+.container {
+    width: 32%;
+    margin: 0 auto ;
+}
+.border {
+	background-image: url('https://msita.udn.vn/images/1610698870-THVP%20DN.png');
+	width: 400px;
+    height: 325px;
+    background-size: 400px; 
+}
+.content {
+    padding-top: 280px;
+    padding-left: 30px;
+}
+a {
+    text-decoration: none ;
+}
+p {
+    color: white;
+}
+.head {
+    color: #ccc;
+    background-color: red;
+    padding: 3px 3px 0 3px;
+    border-radius: 3px;
+}
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.show p {
+    color: #ccc;
+}
+.color {
+    color: white ;
+}
+button {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+    padding: 12px;
+    font-weight: bold ;
+}
+i {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.show {
+    display: none;
+}
+.content:hover .show {
+    display: block;
+    padding-bottom: 10px;
+}
+.content:hover {
+    padding-top: 150px;
+    padding-left: 30px;
+    background-color: rgba(204, 204, 204, 0.3);
+    animation: mymove 0.5s linear;
+    position: relative;
+}
+@keyframes mymove {
+  from {bottom: -5px;}
+  to {bottom: 0px;}
+}
+
+
+
+
+
